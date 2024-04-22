@@ -1,0 +1,29 @@
+.page-title {
+    margin: 0;
+    padding: 16px 16px;
+    background-color: #2a7df6;
+    color: #fbffff;
+    font-family: system-ui;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.page-title .page-title-part {
+    white-space: nowrap;
+    width: 85%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.page-title .page-title-part.full-width {
+    width: 100%;
+}
+
+.page-title .back-btn {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}

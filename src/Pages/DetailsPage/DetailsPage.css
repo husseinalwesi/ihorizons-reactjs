@@ -1,0 +1,19 @@
+.pocke-details {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.pocke-details .pocke-detail-img-container {
+    border-bottom: 1px solid #f2f2f4;
+    padding: 1rem;
+}
+
+.pocke-details .pocke-detail-img-container .pocke-detail-img {
+    max-height: 300px;
+    width: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
